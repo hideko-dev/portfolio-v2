@@ -1,0 +1,23 @@
+{
+  "name": "homepage",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "author": "Hideko",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "start": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.4.2",
+    "svelte": "^4.0.5",
+    "svelte-ripple-action": "^1.0.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.33.1",
+    "path": "^0.12.7",
+    "svelte-routing": "^2.2.0"
+  }
+}
